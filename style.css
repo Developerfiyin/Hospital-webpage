@@ -92,3 +92,12 @@ button {
   border: none;
   cursor: pointer;
 }
+
+.container {
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  max-width: calc(1273px - 32px);
+}
+
+text sty
