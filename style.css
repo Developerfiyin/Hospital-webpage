@@ -10,3 +10,11 @@
   --font-family-mulish: "Mulish", sans-serif;
   --transition-default: all 300ms ease;
 }
+
+html {
+  scroll-behavior: smooth;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
