@@ -8,4 +8,5 @@
   --clr-dark-blue: #04224b;
   --clr-dark-purple: #1f1534;
   --font-family-mulish: "Mulish", sans-serif;
+  --transition-default: all 300ms ease;
 }
