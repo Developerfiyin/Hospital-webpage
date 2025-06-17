@@ -8,7 +8,7 @@
   --clr-dark-blue: #04224b;
   --clr-dark-purple: #1f1534;
   --font-family-mulish: "Mulish", sans-serif;
-  --transition-default: all 300ms ease;
+  --transition-default: all 300ms ease-in-out;
 }
 
 html {
@@ -36,4 +36,26 @@ a {
   text-decoration: none;
   color: unset;
   transition: var(--transition-default);
+}
+
+a:focus,
+a:hover {
+  color: unset;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: 0;
 }
