@@ -79,3 +79,16 @@ embed,
 video {
   max-width: 100%;
 }
+
+body {
+  font-family: var(--font-family-mulish);
+  line-height: 1.6;
+  height: 100%;
+  font-weight: 300;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
