@@ -114,14 +114,37 @@ button {
 .text-black {
   color: var(--clr-black);
 }
-
 .text-white {
   color: var(--clr-white);
 }
 .text-gray {
   color: var(--clr-gray);
 }
-
 .text-dark-purple {
   color: var(--clr-dark-purple);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-center {
+  text-align: center;
+}
+.text-start {
+  text-align: left;
+}
+.text-end {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
 }
