@@ -148,3 +148,25 @@ button {
 .text-nowrap {
   white-space: nowrap;
 }
+
+/*BACKGROUND COLORS*/
+
+-bg-transparent {
+  background-color: transparent;
+}
+.bg-white {
+  background-color: var(--clr-white);
+}
+.bg-black {
+  background-color: var(--clr-black);
+}
+.bg-blue {
+  background-color: var(--clr-blue);
+}
+
+.bg-gray {
+  background-color: var(--clr-gray);
+}
+.bg-dark-purple {
+  background-color: var(--clr-dark-purple);
+}
