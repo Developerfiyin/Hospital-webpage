@@ -289,3 +289,16 @@ button {
 .justify-content-between {
   justify-content: space-between;
 }
+
+/* BUTTON STYLING*/
+.btn {
+  min-width: 200px;
+  height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--clr-white);
+  transition: var(--transition-default);
+}
