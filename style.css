@@ -264,3 +264,18 @@ button {
 .align-items-end {
   align-items: flex-start;
 }
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-baseline {
+  align-items: baseline;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-row {
+  flex-direction: wrap;
+}
