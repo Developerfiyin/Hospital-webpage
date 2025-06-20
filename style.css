@@ -309,3 +309,24 @@ button {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
+.btn-primary {
+  background-color: var(--clr-blue);
+}
+.btn-primary-outline {
+  border: 1.4px solid var(--clr-blue);
+  color: var(--clr-blue);
+}
+
+/*UTILITIES*/
+.title-box .title-box-name {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title-box .title-separator {
+  height: 2px;
+  background-color: var(--clr-black);
+  width: 56px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
