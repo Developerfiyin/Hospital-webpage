@@ -93,6 +93,20 @@ button {
   cursor: pointer;
 }
 
+.page-wrapper {
+  overflow: hidden !important;
+}
+
+/* HEADER SECTION / NAVBAR */
+
+.header {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--clr-blue);
+}
+.header * {
+  color: var(--clr-white);
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
