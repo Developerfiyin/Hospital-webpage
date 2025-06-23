@@ -129,6 +129,35 @@ button {
   margin-right: 12px;
   color: var(--clr-blue);
 }
+.navbar-brand .brand-text {
+  color: var(--clr-white);
+}
+.nav-item {
+  margin-left: 40px;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+}
+.nav-link:hover {
+  opacity: 0.9;
+}
+.nav-link .nav-active {
+  position: relative;
+  opacity: 1;
+  font-weight: 700;
+  color: var(--clr-white);
+}
+
+.nav-link .nav-active::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--clr-white);
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
