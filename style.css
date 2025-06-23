@@ -158,6 +158,23 @@ button {
   height: 2px;
   background-color: var(--clr-white);
 }
+.navbar-show-btn {
+  font-size: 24px;
+  cursor: pointer;
+}
+.navbar-hide-btn {
+  display: none;
+  cursor: pointer;
+  transition: var(--transition-default);
+}
+.element-one {
+  position: absolute;
+  top: calc(56px + 41px + 63px);
+  left: 0;
+}
+.element-one img {
+  width: 60px;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
