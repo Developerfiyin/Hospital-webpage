@@ -116,6 +116,19 @@ button {
 .navbar-content {
   height: 41px;
 }
+.navbar-brand .brand-shape {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: var(--clr-white);
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-right: 12px;
+  color: var(--clr-blue);
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
