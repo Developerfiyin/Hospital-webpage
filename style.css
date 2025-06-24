@@ -194,6 +194,10 @@ button {
 .banner-left .content-wrapper p {
   max-width: 340px;
 }
+.banner-left .text {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
