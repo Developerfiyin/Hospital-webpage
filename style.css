@@ -175,6 +175,25 @@ button {
 .element-one img {
   width: 60px;
 }
+
+/*BANNER*/
+.banner-title {
+  font-size: 48px;
+  line-height: 1.166;
+}
+.banner-content {
+  display: grid;
+  column-gap: 78px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.banner-left .content-wrapper {
+  max-width: 445px;
+  margin-left: auto;
+}
+.banner-left .content-wrapper p {
+  max-width: 340px;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
