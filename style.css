@@ -214,6 +214,29 @@ button {
 .sc-services .content-wrapper .text {
   line-height: 1.6667;
 }
+.services-list {
+  margin-top: calc(83px -18.5px);
+  margin-bottom: -18.5px;
+  margin-right: -18.5px;
+  margin-left: -18.5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-item {
+  box-shadow: 10px 40px 50px 0px #fe5e9f66;
+  background-color: var(--clr-white);
+  border-radius: 20px;
+  width: 350px;
+  min-height: 354px;
+  padding: 46px 38px;
+  margin: 18.5px;
+  width: calc(33.3333% - 37px);
+  transition: var(--transition-default);
+}
+.services-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px rgba(0, 0, 0, 04) 0 10px 10px;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
