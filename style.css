@@ -243,6 +243,10 @@ button {
   margin-bottom: 12px;
 }
 .services-shape {
+  position: absolute;
+  z-index: -1;
+  top: 290px;
+  left: -70px;
 }
 .container {
   margin: 0 auto;
