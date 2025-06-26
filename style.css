@@ -198,6 +198,22 @@ button {
   margin-top: 25px;
   margin-bottom: 45px;
 }
+
+/*SERVICES*/
+.sc-services {
+  padding-top: 179px;
+  padding-bottom: 115.9px;
+  position: relative;
+  overflow: hidden;
+}
+.sc-services .content-wrapper {
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sc-services .content-wrapper .text {
+  line-height: 1.6667;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
