@@ -261,6 +261,14 @@ button {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 137px;
 }
+
+.grid-content .title-box .title-separator {
+  margin-left: 0;
+  margin-top: 26px;
+}
+.grid-content .text {
+  line-height: 1.667;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
