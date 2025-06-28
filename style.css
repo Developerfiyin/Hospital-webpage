@@ -269,6 +269,9 @@ button {
 .grid-content .text {
   line-height: 1.667;
 }
+.grid-content .btn {
+  margin-top: 37px;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
