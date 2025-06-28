@@ -251,6 +251,16 @@ button {
 .services-main-btn {
   margin-top: 69px;
 }
+
+/*grid block one*/
+
+.grid-content .content-wrapper {
+  max-width: 360px;
+}
+.grid-content {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 137px;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
