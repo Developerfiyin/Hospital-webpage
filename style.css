@@ -272,6 +272,14 @@ button {
 .grid-content .btn {
   margin-top: 37px;
 }
+/* GRID ONE */
+.sc-grid-one {
+  padding: 115.5px 0 114.5px 0;
+  background-color: var(--clr-blue);
+}
+.sc-grid-one .grid-content .title-box .title-separator {
+  background-color: var(--clr-white);
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
