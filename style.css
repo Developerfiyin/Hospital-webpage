@@ -131,6 +131,7 @@ button {
 }
 .navbar-brand .brand-text {
   color: var(--clr-white);
+  font-size: 24px;
 }
 .nav-item {
   margin-left: 40px;
@@ -142,14 +143,14 @@ button {
 .nav-link:hover {
   opacity: 0.9;
 }
-.nav-link .nav-active {
+.nav-link.nav-active {
   position: relative;
   opacity: 1;
   font-weight: 700;
   color: var(--clr-white);
 }
 
-.nav-link .nav-active::after {
+.nav-link.nav-active::after {
   content: "";
   position: absolute;
   bottom: -7px;
@@ -166,6 +167,9 @@ button {
   display: none;
   cursor: pointer;
   transition: var(--transition-default);
+}
+.navbar-hide-btn:hover {
+  opacity: 0.8;
 }
 .element-one {
   position: absolute;
@@ -229,7 +233,7 @@ button {
   border-radius: 20px;
   width: 350px;
   min-height: 354px;
-  padding: 46px 38px;
+  padding: 46px 34px;
   margin: 18.5px;
   width: calc(33.3333% - 37px);
   transition: var(--transition-default);
@@ -338,7 +342,7 @@ button {
 
 /*BACKGROUND COLORS*/
 
--bg-transparent {
+.bg-transparent {
   background-color: transparent;
 }
 .bg-white {
@@ -503,7 +507,19 @@ button {
   border: 1.4px solid var(--clr-blue);
   color: var(--clr-blue);
 }
+.btn-secondary {
+  background-color: var(--clr-white);
+  color: var(--clr-blue);
+}
 
+.btn-white-outline {
+  color: var(--clr-white);
+  border: 1.4px solid var(--clr-white);
+}
+.btn-white-outline:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-blue);
+}
 /*UTILITIES*/
 .title-box .title-box-name {
   font-weight: 700;
