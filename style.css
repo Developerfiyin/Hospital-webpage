@@ -362,31 +362,31 @@ button {
   background-color: var(--clr-dark-purple);
 }
 
--op-01 {
+.op-01 {
   opacity: 0.1;
 }
--op-02 {
+.op-02 {
   opacity: 0.2;
 }
--op-03 {
+.op-03 {
   opacity: 03;
 }
--op-04 {
+.op-04 {
   opacity: 04;
 }
--op-05 {
+.op-05 {
   opacity: 05;
 }
--op-06 {
+.op-06 {
   opacity: 06;
 }
--op-07 {
+.op-07 {
   opacity: 07;
 }
--op-08 {
+.op-08 {
   opacity: 08;
 }
--op-09 {
+.op-09 {
   opacity: 09;
 }
 
@@ -453,7 +453,7 @@ button {
   align-items: stretch;
 }
 .align-items-end {
-  align-items: flex-start;
+  align-items: end;
 }
 .align-items-start {
   align-items: flex-start;
@@ -467,8 +467,8 @@ button {
 .flex-row {
   flex-direction: row;
 }
-.flex-row {
-  flex-direction: wrap;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 /* VERTICALLY AND HORIZONTALLY CENTERED */
@@ -520,6 +520,7 @@ button {
   background-color: var(--clr-white);
   color: var(--clr-blue);
 }
+
 /*UTILITIES*/
 .title-box .title-box-name {
   font-weight: 700;
@@ -540,7 +541,7 @@ button {
   margin-left: auto;
 }
 
-@media screen {
+@media screen and (max-width: 992px) {
   .title-box .title-box-name {
     font-size: 32px;
   }
