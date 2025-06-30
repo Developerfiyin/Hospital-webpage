@@ -293,6 +293,15 @@ button {
 .sc-grid-two .grid-content .grid-img {
   order: 2;
 }
+.sc-grid-two .grid-content .grid-text .content-wrapper {
+  max-width: 340px;
+}
+.sc-grid-two .btn:hover img {
+  filter: invert(100%) brightness(100);
+}
+.sc-grid-two .grid-content .grid-text {
+  margin-left: auto;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
