@@ -284,6 +284,15 @@ button {
 .sc-grid-one .grid-content .title-box .title-separator {
   background-color: var(--clr-white);
 }
+
+/*GRID TWO*/
+.sc-grid-two {
+  padding: 114.5px 0 125px 0;
+}
+
+.sc-grid-two .grid-content .grid-img {
+  order: 2;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
