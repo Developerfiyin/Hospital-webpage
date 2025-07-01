@@ -347,6 +347,20 @@ button {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 111px;
 }
+
+.feedback-item .item-img {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid var(--clr-white);
+}
+.feedback-item .item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
