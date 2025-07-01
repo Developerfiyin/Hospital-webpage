@@ -302,6 +302,21 @@ button {
 .sc-grid-two .grid-content .grid-text {
   margin-left: auto;
 }
+.sc-grid-two .btn img {
+  margin-left: 7px;
+}
+
+/*FEEDBACK SECTION*/
+.sc-feedback {
+  padding: 12px 0 13px 0;
+}
+
+.feedback-content {
+  max-width: 1120px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  min-height: relative;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
