@@ -381,7 +381,29 @@ button {
   transform: translateX(-50%);
   top: calc(100% + 40px);
 }
+.feedback-list .owl-dots .owl-dot span {
+  background-color: var(--clr-blue) !important;
+  opacity: 0.3;
+}
+.feedback-list .owl-dots.owl-dot:hover span {
+  background-color: var(--clr-blue) !important;
+  opacity: 1;
+}
 
+.feedback-list .owl-dots .owl-dot.active span {
+  opacity: 1;
+}
+
+.feedback-list .owl-nav {
+  position: absolute;
+  top: calc(100% + 24px);
+  left: 50%;
+  transform: translate(-50%);
+}
+.feedback-list .owl-nav button:hover {
+  background-color: transparent !important ;
+  color: var(--clr-blue) !important;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
