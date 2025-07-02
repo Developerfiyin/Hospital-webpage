@@ -330,7 +330,6 @@ button {
   top: -15px;
   z-index: 1;
 }
-
 .feedback-content .feedback-element-2 {
   position: absolute;
   bottom: 50px;
@@ -340,14 +339,12 @@ button {
 .feedback-item .item-left .item-info {
   margin-left: 20px;
 }
-
 .feedback-item {
   padding: 60px 124px 86px;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 111px;
 }
-
 .feedback-item .item-img {
   width: 141px;
   height: 141px;
@@ -364,7 +361,6 @@ button {
 .feedback-item .item-info .name {
   font-size: 22px;
 }
-
 .feedback-item .item-info .designation {
   font-size: 18px;
 }
@@ -389,11 +385,9 @@ button {
   background-color: var(--clr-blue) !important;
   opacity: 1;
 }
-
 .feedback-list .owl-dots .owl-dot.active span {
   opacity: 1;
 }
-
 .feedback-list .owl-nav {
   position: absolute;
   top: calc(100% + 24px);
@@ -404,6 +398,18 @@ button {
   background-color: transparent !important ;
   color: var(--clr-blue) !important;
 }
+
+.feedback-list .owl-nav .owl-prev {
+  margin-right: 286px;
+}
+.feedback-list .owl-nav {
+  color: var(--clr-blue);
+  opacity: 1;
+}
+.feedback-list .owl-nav :disabled {
+  opacity: 0.3;
+}
+
 .container {
   margin: 0 auto;
   padding-right: 16px;
