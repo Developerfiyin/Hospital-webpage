@@ -361,6 +361,27 @@ button {
   object-fit: cover;
   object-position: 50%;
 }
+.feedback-item .item-info .name {
+  font-size: 22px;
+}
+
+.feedback-item .item-info .designation {
+  font-size: 18px;
+}
+.feedback-item .item-right {
+  max-width: 340px;
+  line-height: 1.57;
+}
+.feedback-list {
+  position: relative;
+}
+.feedback-list .owl-dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 40px);
+}
+
 .container {
   margin: 0 auto;
   padding-right: 16px;
