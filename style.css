@@ -542,6 +542,9 @@ button {
   top: -70px;
   z-index: -1;
 }
+
+/* MEDEIA QUERIES */
+
 .container {
   margin: 0 auto;
   padding-right: 16px;
