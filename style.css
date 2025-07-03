@@ -573,6 +573,27 @@ button {
     transform: translateX(100%);
     transition: var(--transition-default);
   }
+
+  .navbar-box-show {
+    transform: translate(0);
+  }
+
+  .navbar-box .nav-link {
+    color: var(--clr-black);
+    position: relative;
+    padding-bottom: 8px;
+  }
+  .navbar-box .nav-link::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 0;
+    background-color: var(--clr-blue);
+    transition: var(--transition-default);
+  }
 }
 
 .container {
