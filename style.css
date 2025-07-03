@@ -458,8 +458,34 @@ button {
 .articles-item .item-title {
   font-weight: 700;
   line-height: 1.52;
-  font-size: 23px;
+  font-size: 21px;
   margin-bottom: 12px;
+}
+
+.articles-item .text {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.articles-item .item-link-text {
+  font-weight: 600;
+  font-size: 17px;
+}
+.articles-item .item-link-icon {
+  margin-left: 12px;
+}
+
+.articles-item .item-link:hover {
+  color: #1472f4;
+}
+.articles-content {
+  position: relative;
+}
+.articles-element {
+  position: absolute;
+  top: 105px;
+  left: -5px;
+  z-index: -1;
 }
 .container {
   margin: 0 auto;
