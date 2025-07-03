@@ -495,20 +495,32 @@ button {
   padding-bottom: 109px;
   position: relative;
 }
-
 .footer .navbar-brand {
   margin-bottom: var(--clr-white);
   color: var(--clr-blue);
 }
-
 .footer .navbar-brand .brand-text {
   color: var(--clr-white);
 }
-
 .footer-links {
   grid-template-columns: 3fr 1fr 1fr 1fr;
   column-gap: 80px;
   row-gap: 40px;
+}
+.footer-item:nth-child(1) {
+  padding-right: 100px;
+}
+.footer-item:nth-child(1) .copyright-text {
+  margin-top: 31px;
+  line-height: 1.55;
+}
+.footer-item-title {
+  font-weight: 700;
+  font-weight: 20px;
+  margin-bottom: 24px;
+}
+.footer-links li a {
+  font-weight: 300;
 }
 .container {
   margin: 0 auto;
