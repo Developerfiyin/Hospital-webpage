@@ -502,7 +502,7 @@ button {
 .footer .navbar-brand .brand-text {
   color: var(--clr-white);
 }
-.footer-links {
+.footer-list {
   grid-template-columns: 3fr 1fr 1fr 1fr;
   column-gap: 80px;
   row-gap: 40px;
@@ -521,6 +521,20 @@ button {
 }
 .footer-links li a {
   font-weight: 300;
+  font-size: 18px;
+}
+
+.footer-links li a:hover {
+  opacity: 0.95;
+  text-decoration: underline;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-element-1 {
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
 .container {
   margin: 0 auto;
