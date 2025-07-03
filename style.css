@@ -536,6 +536,12 @@ button {
   left: 0;
   position: absolute;
 }
+.footer-element-2 {
+  position: absolute;
+  right: 91px;
+  top: -70px;
+  z-index: -1;
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
