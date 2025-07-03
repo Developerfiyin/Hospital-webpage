@@ -437,12 +437,10 @@ button {
   margin: 0 17px;
   transition: var(--transition-default);
 }
-
 .articles-item:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
 }
-
 .articles-item .item-img {
   height: 246px;
   overflow: hidden;
@@ -461,7 +459,6 @@ button {
   font-size: 21px;
   margin-bottom: 12px;
 }
-
 .articles-item .text {
   font-weight: 300;
   font-size: 16px;
@@ -554,6 +551,27 @@ button {
   }
   .footer-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .navbar-show-btn {
+    display: block;
+  }
+  .navbar .navbar-hide-btn i {
+    color: var(--clr-black);
+  }
+  .navbar-box {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 280px;
+    box-shadow: rgb(149, 152, 165, 0.4) 0px 0px 24px;
+    z-index: 999;
+    background-color: var(--clr-black);
+    padding: 40px 32px 24px;
+    transform: translateX(100%);
+    transition: var(--transition-default);
   }
 }
 
