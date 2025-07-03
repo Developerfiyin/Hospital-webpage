@@ -395,7 +395,7 @@ button {
   transform: translate(-50%);
 }
 .feedback-list .owl-nav button:hover {
-  background-color: transparent !important ;
+  background-color: transparent !important;
   color: var(--clr-blue) !important;
 }
 .feedback-list .owl-nav .owl-prev {
@@ -405,8 +405,33 @@ button {
   color: var(--clr-blue);
   opacity: 1;
 }
-.feedback-list .owl-nav :disabled {
+.feedback-list .owl-nav .disabled {
   opacity: 0.3;
+}
+
+/* ARTICLES */
+
+.sc-articles {
+  position: relative;
+  padding: 108px 0 64.5px 0;
+}
+
+.articles-item {
+  box-shadow: 10px 40px 50px 0px #fe5e9f54;
+  border-radius: 20px;
+  background-color: var(--clr-white);
+  max-width: 350px;
+}
+.articles-list {
+  margin-right: -17px;
+  margin-left: -17px;
+  margin-top: 79px;
+}
+.articles-shape {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  z-index: -1-;
 }
 
 .container {
