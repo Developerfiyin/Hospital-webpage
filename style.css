@@ -544,6 +544,18 @@ button {
 }
 
 /* MEDEIA QUERIES */
+@media screen and (max-width: 1120px) {
+  .feedback-list .feedback-item {
+    column-gap: 40px;
+  }
+
+  .footer-item:nth-child(1) {
+    padding-right: 0;
+  }
+  .footer-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 .container {
   margin: 0 auto;
