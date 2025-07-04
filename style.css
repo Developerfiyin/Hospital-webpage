@@ -646,9 +646,16 @@ button {
     position: relative;
     overflow: hidden;
   }
-
   .services-item {
     width: calc(50% -37px);
+  }
+  .sc-services {
+    padding-top: 120px;
+    padding-bottom: 115.5px;
+  }
+  .services-shape {
+    width: 70%;
+    top: 340px;
   }
 }
 
