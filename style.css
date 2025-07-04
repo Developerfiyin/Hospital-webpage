@@ -692,6 +692,22 @@ button {
     margin-left: 0;
     margin-bottom: 60px;
   }
+
+  /* Feedback*/
+  .sc-feedback {
+    padding: 120px;
+  }
+  .feedback-list .feedback-item {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 32px 0;
+  }
+  .feedback-list .feedback-item .item-right {
+    max-width: 100%;
+    margin-top: 24px;
+  }
+  .feedback-list .owl-nav .owl-prev {
+    margin-right: 200px;
+  }
 }
 
 .container {
