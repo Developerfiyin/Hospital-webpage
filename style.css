@@ -636,6 +636,19 @@ button {
     margin-top: 40px;
     max-width: 480px;
     margin-right: auto;
+    margin-left: auto;
+  }
+
+  /*sc sevrices */
+  .sc-services {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .services-item {
+    width: calc(50% -37px);
   }
 }
 
