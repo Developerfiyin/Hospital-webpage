@@ -594,11 +594,9 @@ button {
     background-color: var(--clr-blue);
     transition: var(--transition-default);
   }
-
   .navbar-box .nav-link:hover {
     color: var(--clr-blue);
   }
-
   .navbar-box .nav-link:hover::after {
     width: 100%;
   }
@@ -610,6 +608,13 @@ button {
   }
   .navbar-box .nav-item {
     margin: 12px 0;
+  }
+  .navbar-box .navbar-hide-btn {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    font-size: 24px;
   }
 }
 
