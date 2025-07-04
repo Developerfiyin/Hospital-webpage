@@ -616,6 +616,15 @@ button {
     top: 16px;
     font-size: 24px;
   }
+
+  /*BANNER*/
+  .banner-content {
+    column-gap: 36px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner .banner-left .content-wrapper {
+    max-width: 100%;
+  }
 }
 
 .container {
