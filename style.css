@@ -577,7 +577,6 @@ button {
   .navbar-box-show {
     transform: translate(0);
   }
-
   .navbar-box .nav-link {
     color: var(--clr-black);
     position: relative;
