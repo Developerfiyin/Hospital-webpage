@@ -671,8 +671,7 @@ button {
   .grid-content {
     grid-template-columns: repeat(1, 1fr);
   }
-
-  .grid-content .title-box .title-separator {
+  ss .grid-content .title-box .title-separator {
     margin-left: auto;
   }
   .grid-content .grid-img {
@@ -686,6 +685,12 @@ button {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+  .sc-grid-two .grid-content .grid-text {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 60px;
   }
 }
 
