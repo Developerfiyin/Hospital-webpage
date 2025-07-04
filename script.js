@@ -6,12 +6,13 @@ $(document).ready(function () {
     items: 1,
     autoplay: true,
     navText: [
-      "<i class = 'fas fa-arrow-left'></i>, <i class = 'fas fa-arrow-right'></i>",
+      "<i class = 'fas fa-arrow-left'></i>",
+      "<i class = 'fas fa-arrow-right'></i>",
     ],
   });
 
   /*STOP ANIMATION ON RESIZE */
-  let resignation;
+  let resizeTimer;
   $(window).resize(function () {
     $(document.body).addClass("resize-animation-stopper");
     clearTimeout(resizeTimer);
