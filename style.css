@@ -623,7 +623,19 @@ button {
     grid-template-columns: repeat(1, 1fr);
   }
   .banner .banner-left .content-wrapper {
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .banner-left .content-wrapper p {
     max-width: 100%;
+  }
+  .banner .banner-right {
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 480px;
+    margin-right: auto;
   }
 }
 
