@@ -657,6 +657,18 @@ button {
     width: 70%;
     top: 340px;
   }
+
+  /*GRID ONE*/
+  .sc-grid-one .sc-grid-two {
+    padding: 100px 0;
+  }
+
+  .grid-content .content-wrapper {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 }
 
 .container {
