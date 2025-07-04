@@ -594,6 +594,23 @@ button {
     background-color: var(--clr-blue);
     transition: var(--transition-default);
   }
+
+  .navbar-box .nav-link:hover {
+    color: var(--clr-blue);
+  }
+
+  .navbar-box .nav-link:hover::after {
+    width: 100%;
+  }
+  .navbar-box .nav-link.nav-active {
+    color: var(--clr-blue);
+  }
+  .navbar-box .navbar-nav {
+    flex-direction: column;
+  }
+  .navbar-box .nav-item {
+    margin: 12px 0;
+  }
 }
 
 .container {
