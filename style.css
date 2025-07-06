@@ -720,16 +720,24 @@ button {
   }
 
   /*ARTICLES*/
-
   .sc-articles {
     padding: 100px 0;
   }
-
   .articles-content .articles-item {
     width: calc(50% - 34px);
     overflow: hidden;
     margin: 17px;
   }
+
+  .articles-shape {
+    width: 50%;
+  }
+  .articles-element {
+    top: 180px;
+    width: 60px;
+  }
+
+  .articles-list;
 }
 
 .container {
