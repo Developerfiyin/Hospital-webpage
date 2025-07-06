@@ -767,9 +767,17 @@ button {
     padding-right: 20px;
     padding-left: 20px;
   }
-
   .feedback-list .feedback-item .item-left {
     flex-direction: column;
+  }
+
+  .feedback-list .feedback-item .item-left .item-info {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .feedback-list .owl-nav .owl-prev {
+    margin-right: 120px;
   }
 }
 .container {
@@ -786,7 +794,6 @@ button {
   font-weight: 300;
   font-style: normal;
 }
-
 .text-blue {
   color: var(--clr-blue);
 }
