@@ -779,7 +779,13 @@ button {
   .feedback-list .owl-nav .owl-prev {
     margin-right: 120px;
   }
+
+  /* ARTICLES */
+  .sc-articles {
+    padding: 80px 0;
+  }
 }
+
 .container {
   margin: 0 auto;
   padding-right: 16px;
