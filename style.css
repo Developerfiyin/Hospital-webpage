@@ -432,7 +432,7 @@ button {
   z-index: -1;
 }
 .articles-item {
-  width: calc(3333.3333% - 34px);
+  width: calc(333.333% - 34px);
   overflow: hidden;
   margin: 0 17px;
   transition: var(--transition-default);
@@ -728,7 +728,6 @@ button {
     overflow: hidden;
     margin: 17px;
   }
-
   .articles-shape {
     width: 50%;
   }
@@ -737,7 +736,15 @@ button {
     width: 60px;
   }
 
-  .articles-list;
+  /* FOOTER */
+  .footer-element-1 {
+    width: 60px;
+  }
+  .footer-element-2 {
+    width: 60px;
+    right: 0;
+    top: -35px;
+  }
 }
 
 .container {
