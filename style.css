@@ -747,6 +747,13 @@ button {
   }
 }
 
+@media screen and (max-width: 768px) {
+  /* NAVBAR*/
+
+  .element-one img {
+    width: 40px;
+  }
+}
 .container {
   margin: 0 auto;
   padding-right: 16px;
