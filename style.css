@@ -701,9 +701,6 @@ button {
     grid-template-columns: repeat(1, 1fr);
     padding: 32px;
   }
-  .feedback-list .feedback-item .item-left {
-    width: 100%;
-  }
   .feedback-list .feedback-item .item-right {
     max-width: 100%;
     margin-top: 24px;
@@ -720,6 +717,18 @@ button {
   .feedback-content .feedback-element-2 {
     width: 50px;
     left: 0;
+  }
+
+  /*ARTICLES*/
+
+  .sc-articles {
+    padding: 100px 0;
+  }
+
+  .articles-content .articles-item {
+    width: calc(50% - 34px);
+    overflow: hidden;
+    margin: 17px;
   }
 }
 
