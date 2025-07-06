@@ -749,7 +749,6 @@ button {
 
 @media screen and (max-width: 768px) {
   /* NAVBAR*/
-
   .element-one img {
     width: 40px;
   }
@@ -758,6 +757,19 @@ button {
   .sc-grid-one,
   .sc-grid-two {
     padding: 80px 0;
+  }
+
+  /*FEEDBACK */
+  .sc-feedback {
+    padding: 80px 0;
+  }
+  .feedback-list .feedback-item {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .feedback-list .feedback-item .item-left {
+    flex-direction: column;
   }
 }
 .container {
