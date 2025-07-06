@@ -753,6 +753,12 @@ button {
   .element-one img {
     width: 40px;
   }
+
+  /* GRID ONE */
+  .sc-grid-one,
+  .sc-grid-two {
+    padding: 80px 0;
+  }
 }
 .container {
   margin: 0 auto;
