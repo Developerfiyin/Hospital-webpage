@@ -809,6 +809,12 @@ button {
     width: 100%;
     margin: 12px 0;
   }
+
+  .articles-list .articles-item {
+    width: calc(100% - 34px);
+    overflow: hidden;
+    max-width: 100%;
+  }
 }
 
 .container {
