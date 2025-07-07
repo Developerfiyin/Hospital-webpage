@@ -804,16 +804,25 @@ button {
     margin-left: 0;
     margin-right: 0;
   }
-
   .services-list .services-item {
     width: 100%;
     margin: 12px 0;
   }
-
   .articles-list .articles-item {
     width: calc(100% - 34px);
     overflow: hidden;
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .services-item {
+    text-align: center;
+  }
+
+  .services-item .item-icon img {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
