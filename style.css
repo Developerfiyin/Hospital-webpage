@@ -694,6 +694,7 @@ button {
   }
 
   /* Feedback*/
+
   .sc-feedback {
     padding: 120px;
   }
@@ -720,6 +721,7 @@ button {
   }
 
   /*ARTICLES*/
+
   .sc-articles {
     padding: 100px 0;
   }
@@ -737,6 +739,7 @@ button {
   }
 
   /* FOOTER */
+
   .footer-element-1 {
     width: 60px;
   }
@@ -819,10 +822,15 @@ button {
   .services-item {
     text-align: center;
   }
-
   .services-item .item-icon img {
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-box {
+    width: 100%;
   }
 }
 
