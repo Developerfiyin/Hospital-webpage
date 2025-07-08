@@ -143,14 +143,14 @@ button {
 .nav-link:hover {
   opacity: 0.9;
 }
-.nav-link.nav-active {
+.nav-link .nav-active {
   position: relative;
   opacity: 1;
   font-weight: 700;
   color: var(--clr-white);
 }
 
-.nav-link.nav-active::after {
+.nav-link .nav-active::after {
   content: "";
   position: absolute;
   bottom: -7px;
