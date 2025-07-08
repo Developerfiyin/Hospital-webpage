@@ -308,7 +308,7 @@ button {
 
 /*FEEDBACK SYLING*/
 .sc-feedback {
-  padding: 12px 0 13px 0;
+  padding: 125px 0 138px 0;
 }
 .feedback-content {
   max-width: 1120px;
@@ -333,11 +333,11 @@ button {
 .feedback-content .feedback-element-2 {
   position: absolute;
   bottom: 50px;
-  left: -52px;
+  left: -57px;
   z-index: -1;
 }
 .feedback-item .item-left .item-info {
-  margin-left: 20px;
+  margin-left: 29px;
 }
 .feedback-item {
   padding: 60px 124px 86px;
@@ -445,7 +445,7 @@ button {
   height: 246px;
   overflow: hidden;
 }
-.articles-item.item-img img {
+.articles-item .item-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
