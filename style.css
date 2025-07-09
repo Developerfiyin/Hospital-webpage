@@ -1044,7 +1044,13 @@ button {
   font-size: 36px;
 }
 
-.
+.title-box .title-separator {
+  height: 2px;
+  background-color: var(--clr-black);
+  width: 56px;
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
 
 /*MARGIN AUTO*/
 .mk-auto {
