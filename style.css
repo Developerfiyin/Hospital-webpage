@@ -970,7 +970,7 @@ button {
   align-items: stretch;
 }
 .align-items-end {
-  align-items: end;
+  align-items: flex-start;
 }
 .align-items-start {
   align-items: flex-start;
@@ -1013,7 +1013,7 @@ button {
 }
 .btn:hover {
   color: var(--clr-white);
-  background-color: #2472fa;
+  background-color: #1472f4;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
@@ -1028,7 +1028,6 @@ button {
   background-color: var(--clr-white);
   color: var(--clr-blue);
 }
-
 .btn-white-outline {
   color: var(--clr-white);
   border: 1.4px solid var(--clr-white);
